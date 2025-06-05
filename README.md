@@ -97,9 +97,6 @@ Basta abrir o arquivo `index.html` no seu navegador preferido. Não há necessid
 ## ✨ Melhorias Futuras
 
 * Adicionar níveis extras (modo infinito ou modo cronometrado)
-* Melhorar animações e transições das cartas
 * Adicionar sons de interação
-* Sistema de leaderboard
-* Modo multiplayer local
 
 ---
