@@ -16,10 +16,11 @@
 
 /* Estilos para as cartas do jogo */
 .card {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  aspect-ratio: 1/1;
   perspective: 1000px;
 }
+
 
 .card img {
   width: 100%;
@@ -48,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: clamp(16px, 4vw, 32px);
   border-radius: 8px;
   box-shadow: 0 0 5px #000000;
   background-color: var(--cor-azul-escuro);
@@ -63,28 +64,4 @@
   box-shadow: 0 0 5px #191919;
   cursor: pointer;
   border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .card {
-    width: 80px;
-    height: 80px;
-  }
-
-  .card-front,
-  .card-back {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .card {
-    width: 60px;
-    height: 60px;
-  }
-
-  .card-front,
-  .card-back {
-    font-size: 16px;
-  }
 }
