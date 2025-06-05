@@ -42,8 +42,6 @@
   .modal p {
       font-size: clamp(14px, 3vw, 20px);
   }
-
-
   
   .modal img {
     max-width: 55%;
@@ -74,9 +72,9 @@
 
 @media screen and (max-width: 720px) {
     .modal-content {
-        width: 90%;
-        padding: 6vh 5vw;
-        max-width: none; /* <-- ESSA É A CHAVE */
+        width: 60%;
+        padding: clamp(20px, 5vw, 40px);
+        max-width: 400px;
     }
 
     .modal h2 {
