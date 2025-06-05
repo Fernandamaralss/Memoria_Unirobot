@@ -1,0 +1,49 @@
+/* Estilos para o corpo da página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para o contêiner do jogo */
+#game-container {
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 100px; /* Espaço para os controles */
+}
+
+.control {
+  font-size: 5vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.botoes-esquerda {
+  display: flex;
+  gap: 10px;
+}
+
+.botoes-esquerda button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#tempoRestante {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
