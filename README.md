@@ -85,11 +85,9 @@ As imagens das cartas são duplicadas e embaralhadas a cada nova partida.
 
 Basta abrir o arquivo `index.html` no seu navegador preferido. Não há necessidade de servidor ou instalação de dependências.
 
-> ⚠ **Dica:** Como o projeto usa `type="module"` nos scripts, alguns navegadores exigem que seja executado em um servidor local. Exemplo com Live Server (VSCode):
-
 ```bash
-# Instale a extensão Live Server no VSCode
-# Clique com botão direito em index.html -> "Open with Live Server"
+1. Instale a extensão Live Server no VSCode
+2. Clique com botão direito em index.html -> "Open with Live Server"
 ````
 
 ---
